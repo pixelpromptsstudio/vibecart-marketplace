@@ -1,0 +1,14 @@
+{
+  "name": "vibecart-workspace",
+  "version": "1.0.0",
+  "description": "VibeCart — Multi-Vendor E-Commerce Marketplace",
+  "private": true,
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "seed": "npm --prefix backend run seed",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build"
+  },
+  "keywords": ["ecommerce", "marketplace", "nextjs", "react", "express", "mongodb", "typescript"]
+}
